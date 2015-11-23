@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>StuddyBuddy</title>
+	<script type="text/javascript">
+	function login() {
+		var username = document.getElementById("user");
+		var password = document.getElementById("pass");
+		if(username.value != "eecs448" || password.value != "password") {
+    	  alert("Log in failed: Username does not match password!");
+		}
+		else {
+		  alert("Logged In!");
+	      window.location="C:\Users\Axeldama\Documents\EECS 448\Project\main.html";
+		}
+		
+	}
+	</script>
+  </head>
+  <body><center>
+  <a href="C:\Users\Axeldama\Documents\EECS 448\Project\index.html">
+  <img src="https://www.googledrive.com/host/0B0n7HO8qgKkxR21SOUx4MFpKMW8" alt="StuddyBuddy" />
+  </a>
+  <p>
+  Username: <input type="text" name="username" id="user">
+  <p>
+  Password: <input type="password" name="password" id="pass">
+  <p>
+  <p>
+  New? <a href="C:\Users\Axeldama\Documents\EECS 448\Project\registration.html">Register here</a>
+  </p>
+  
+  <input type="button" name="login" value="Log In" onclick="login()"/> 
+  
+
+<p id="logIn"></p>
+  </center>
+  </body>
+</html>
