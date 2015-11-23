@@ -7,18 +7,19 @@
 		var username = document.getElementById("user");
 		var password = document.getElementById("pass");
 		if(username.value != "eecs448" || password.value != "password") {
-    	  alert("Log in failed: Username does not match password!");
+    	  alert("Log in failed: Username does not match the password!");
+		  
 		}
 		else {
 		  alert("Logged In!");
-	      window.location="C:\Users\Axeldama\Documents\EECS 448\Project\main.html";
+	      window.location="../EECS_448/main.html";
 		}
 		
 	}
 	</script>
   </head>
   <body><center>
-  <a href="C:\Users\Axeldama\Documents\EECS 448\Project\index.html">
+  <a href="../EECS_448/index.html">		<!--location might be different in order for this to work-->
   <img src="https://www.googledrive.com/host/0B0n7HO8qgKkxR21SOUx4MFpKMW8" alt="StuddyBuddy" />
   </a>
   <p>
@@ -27,7 +28,7 @@
   Password: <input type="password" name="password" id="pass">
   <p>
   <p>
-  New? <a href="C:\Users\Axeldama\Documents\EECS 448\Project\registration.html">Register here</a>
+  New? <a href="../EECS_448/registration.html">Register here</a>		<!--location might be different in order for this to work-->
   </p>
   
   <input type="button" name="login" value="Log In" onclick="login()"/> 
